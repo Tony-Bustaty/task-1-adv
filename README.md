@@ -6,11 +6,11 @@ To set up the Book Library Management System, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/Tony-Bustaty/book-library.git
+git clone https://github.com/Tony-Bustaty/task-1-adv
 ```
 2. Navigate to the project directory:
 ```
-cd book-library
+cd task-1-adv
 ```
 3. Install the dependencies:
 ```
@@ -19,7 +19,7 @@ npm install
 
 ## Usage
 
-1. just use the live server extension which can be install within vs code from the extensions tab
+1. just use the live server extension which can be installed within VS Code from the extensions tab in the app
 
 The application provides the following features:
 
