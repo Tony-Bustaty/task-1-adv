@@ -12,11 +12,6 @@ git clone https://github.com/Tony-Bustaty/task-1-adv
 ```
 cd task-1-adv
 ```
-3. Install the dependencies:
-```
-npm install
-```
-
 ## Usage
 
 1. just use the live server extension which can be installed within VS Code from the extensions tab in the app
