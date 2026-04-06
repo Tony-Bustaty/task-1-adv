@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Add Book</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00c0c1;
+        padding: 1.8rem;
+      "
+    >
+      <h1 style="color: #d7ffff">Logo</h1>
+    </header>
+    <div
+      style="
+        display: flex;
+        height: 100dvh;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <form
+      class="add-book-form"
+        style="
+          display: flex;
+          gap: 2rem;
+          flex-direction: column;
+          background-color: aquamarine;
+          padding: 4rem;
+        "
+      >
+        <h1 style="max-width: 10rem; margin: 0 auto; font-size: 1.5rem">
+          Add New Book
+        </h1>
+        <div style="display: flex; gap: 2rem; justify-content: space-between">
+          <label for="title"> Title :</label>
+          <input type="text" class="add-title" placeholder="title" id="title" />
+        </div>
+        <div style="display: flex; justify-content: space-between; gap: 2rem">
+          <label for="author"> Author :</label>
+          <input type="text" class="add-author" placeholder="author" id="author" />
+        </div>
+        <div style="display: flex; gap: 2rem; justify-content: space-between">
+          <label for="category"> Category: </label>
+          <input type="text"  class="add-category" placeholder="category" id="category" />
+        </div>
+
+        <div
+          style="
+            display: flex;
+            gap: 0.5rem;
+            justify-content: start;
+            align-items: center;
+          "
+        >
+          <input
+            type="checkbox"
+            placeholder="isAvailable"
+            id="isAvailable"
+            value="isAvailable"
+             class="add-availability"
+          />
+          <label for="isAvailable"> isAvailable </label>
+        </div>
+        <div
+          style="
+            display: flex;
+            gap: 0.5rem;
+            justify-content: start;
+            align-items: center;
+          "
+          
+        >
+          <input
+            type="checkbox"
+            placeholder="ReferenceBook"
+            id="ReferenceBook"
+            value="ReferenceBook"
+             class="add-referenceBook"
+          />
+          <label for="ReferenceBook"> Reference Book</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script type="module" src="dist/AddBook.js"></script>
+</html>

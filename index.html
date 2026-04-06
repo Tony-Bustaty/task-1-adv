@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00c0c1;
+        padding: 1.8rem;
+      "
+    >
+      <h1 style="color: #d7ffff">Logo</h1>
+      <ul style="list-style: none; "><li><a style="text-decoration: none; background-color: #d7ffff; padding:0.5rem 1rem; border-radius: .6rem; color:#111" href="/AddBook.html">Create</a></li></ul>
+      <input placeholder="Search..." id="searchInput" />
+    </header>
+    <main>
+      <div style="padding: 2rem; margin: 1rem">
+        <select class="categoryFilter">
+          <option value="default">default</option>
+          <option value="sci-Fi">Sci-Fi</option>
+          <option value="others">Others</option>
+          <option value="drama">Drama</option>
+          <option value="science">Science</option>
+          <option value="action">Action</option>
+        </select>
+      </div>
+      <section
+        style="
+          display: flex;
+          gap: 2rem;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          padding: 2rem 5rem;
+        "
+        class="main"
+      ></section>
+    </main>
+    <script type="module" src="dist/main.js"></script>
+  </body>
+</html>
